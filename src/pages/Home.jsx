@@ -1,4 +1,4 @@
-import "../styles/home.css";
+import "../styles/Home.css";
 import { products } from "../data/products";
 import ProductCard from "../components/ProductCard";
 import { Link } from "react-router-dom";
