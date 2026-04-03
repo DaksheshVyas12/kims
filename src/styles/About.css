@@ -1,0 +1,75 @@
+.about {
+  color: #fff;
+}
+
+/* HERO */
+.about-hero {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #ff6b00;
+}
+
+.about-hero p {
+  opacity: 0.8;
+}
+
+/* SECTIONS */
+.about-section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-section h2 {
+  margin-bottom: 20px;
+  color: #ff6b00;
+}
+
+.about-section p {
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* VISION GRID */
+.vision-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.vision-card {
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.vision-card:hover {
+  transform: translateY(-5px);
+}
+
+/* GALLERY */
+.gallery-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}

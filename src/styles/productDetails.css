@@ -1,0 +1,36 @@
+.product-details {
+  padding: 100px 20px;
+  background: #1c1c1c;
+  min-height: 100vh;
+}
+
+.details-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.details-container img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.details-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.details-content h1 {
+  color: #ff6b00;
+  margin-bottom: 20px;
+}
+
+.details-content p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+.customers-page {
+  padding: 100px 20px;
+  background: #1c1c1c;
+  min-height: 100vh;
+}
+
+.customers-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.customers-container h1 {
+  font-size: clamp(30px, 4vw, 40px);
+  color: #ff6b00;
+  margin-bottom: 50px;
+}
+
+.stats-section {
+  margin-bottom: 60px;
+  font-size: 22px;
+  color: #ccc;
+}
+
+.customers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.customer-card {
+  background: #2a2a2a;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.customer-card:hover {
+  transform: translateY(-8px);
+  background: #333;
+}
+
+.customer-card img {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.customer-card h3 {
+  color: #ff6b00;
+  margin-bottom: 10px;
+}
+
+.customer-card p {
+  color: #ccc;
+  font-size: 14px;
+}
