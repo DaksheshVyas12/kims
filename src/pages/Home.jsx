@@ -18,7 +18,7 @@ function Home() {
       </p>
       <button
         className="hero-btn"
-        onClick={() => window.location.href = "/products"}
+        onClick={() => window.location.href = "/Products"}
       >
         Explore Our Products
       </button>
